@@ -1,103 +1,43 @@
-# E-Commerce Sales Data Analysis 📊
+E-Commerce Sales Data Analysis
+This project is a hands-on exploration of real-world e-commerce sales data collected from multiple online platforms. The main aim is to clean messy raw data, understand pricing behavior across platforms, and extract useful business insights that can support better decision-making.
+The analysis is done step by step using Python in a Jupyter Notebook, following a structured data analytics workflow similar to what is used in real industry projects.
 
-## 📌 Project Overview
+What This Project Tries to Solve
 
-This project focuses on analyzing multi-platform e-commerce sales data to derive meaningful business insights. The dataset includes product-level pricing, margins, and sales information across various platforms such as Amazon, Flipkart, Myntra, Ajio, and others. The goal is to clean, preprocess, and analyze the data to support data-driven decision-making.
+Make raw e-commerce data clean and analysis-ready
 
----
+Fix incorrect data types and missing values
 
-## 🎯 Objectives
+Compare product prices across different platforms
 
-* Understand the structure and quality of raw e-commerce data
-* Perform complete data preprocessing and type casting
-* Handle missing values and inconsistent data
-* Engineer meaningful features like margins and average prices
-* Analyze platform-wise and category-wise pricing trends
-* Prepare the dataset for further analysis and visualization
+Calculate margins and understand profitability
 
----
+Prepare the data for further visualization and reporting
 
-## 🧩 Dataset Description
+About the Dataset
 
-* Rows: 100,000+ product records
-* Columns: Pricing (MRP), order details, platform-specific data, margins
-* Data Types: Numeric, categorical, date-time
-* Source: Public e-commerce dataset (Kaggle / internal source)
+Contains 100,000+ product-level records
 
----
+Includes pricing (MRP), order details, and platform-specific data
 
-## 🛠️ Tools & Technologies
+Data comes in mixed formats (numeric, categorical, date fields)
 
-* **Python**
-* **Pandas** – data manipulation
-* **NumPy** – numerical operations
-* **Matplotlib / Seaborn** – visualization
-* **Jupyter Notebook** – analysis environment
+Some platforms contain missing or unavailable data, which is handled during preprocessing
 
----
+Tools & Skills Used
 
-## 🔄 Project Workflow
+Python
 
-1. Data Loading
-2. Data Understanding
-3. Data Type Conversion (Type Casting)
-4. Data Preprocessing
+Pandas for data cleaning and manipulation
 
-   * Handling missing values
-   * Removing duplicates
-   * Fixing inconsistent columns
-5. Feature Engineering
+NumPy for calculations
 
-   * Margin calculation
-   * Platform-wise price comparison
-6. Exploratory Data Analysis (EDA)
-7. Key Insights & Findings
+Matplotlib / Seaborn for basic visual analysis
 
----
+Jupyter Notebook for interactive analysis
 
-## 📈 Key Insights
+Author
 
-* Identified pricing differences across platforms
-* Calculated platform-specific margins
-* Detected missing or unavailable data (e.g., Shiprocket)
-* Prepared a clean and analysis-ready dataset
-
----
-
-## 📂 Repository Structure
-
-```
-├── data/
-│   └── raw_dataset.csv
-├── notebooks/
-│   └── ecommerce_analysis.ipynb
-├── README.md
-```
-
----
-
-## 🚀 How to Run the Project
-
-1. Clone the repository
-2. Install required libraries:
-
-   ```bash
-   pip install pandas numpy matplotlib seaborn
-   ```
-3. Open the Jupyter Notebook:
-
-   ```bash
-   jupyter notebook
-   ```
-4. Run the notebook cells sequentially
-
----
-
-## 👤 Author
-
-**Madhumitha Malli**
-B.Tech CSE (AI & ML) | Aspiring Data Analyst 
----
-
-⭐ If you found this project useful, feel free to star the repository!
-
+Madhumitha Malli
+B.Tech CSE (AI & ML) | Aspiring Data Analyst
+Feel free to explore the project and star the repository if you find it helpful!
