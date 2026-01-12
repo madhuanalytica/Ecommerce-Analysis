@@ -1,43 +1,96 @@
-E-Commerce Sales Data Analysis
-This project is a hands-on exploration of real-world e-commerce sales data collected from multiple online platforms. The main aim is to clean messy raw data, understand pricing behavior across platforms, and extract useful business insights that can support better decision-making.
-The analysis is done step by step using Python in a Jupyter Notebook, following a structured data analytics workflow similar to what is used in real industry projects.
+# E-Commerce Sales Data Analysis
 
-What This Project Tries to Solve
+## About the Project
 
-Make raw e-commerce data clean and analysis-ready
+This project is a simple analysis of e-commerce sales data collected from different online platforms. The main focus is to clean the raw data, understand how prices differ across platforms, and perform basic analysis to gain useful insights.
 
-Fix incorrect data types and missing values
+The entire work is done using Python in a Jupyter Notebook, following a clear and beginner-friendly data analysis process.
 
-Compare product prices across different platforms
+---
 
-Calculate margins and understand profitability
+## Project Goals
 
-Prepare the data for further visualization and reporting
+* Clean and organize raw e-commerce data
+* Convert columns to correct data types
+* Handle missing and inconsistent values
+* Compare prices across multiple platforms
+* Create basic calculated columns like margins
 
-About the Dataset
+---
 
-Contains 100,000+ product-level records
+## Dataset Overview
 
-Includes pricing (MRP), order details, and platform-specific data
+* Contains more than 100,000 product records
+* Includes order details and platform-wise pricing
+* Data includes numeric, text, and date columns
+* Some platforms have missing data, which is handled during preprocessing
 
-Data comes in mixed formats (numeric, categorical, date fields)
+---
 
-Some platforms contain missing or unavailable data, which is handled during preprocessing
+## Tools Used
 
-Tools & Skills Used
+* Python
+* Pandas
+* NumPy
+* Matplotlib / Seaborn
+* Jupyter Notebook
 
-Python
+---
 
-Pandas for data cleaning and manipulation
+## Steps Followed
 
-NumPy for calculations
+1. Loaded the dataset and checked its structure
+2. Understood column meanings and data issues
+3. Converted incorrect data types
+4. Cleaned missing and duplicate values
+5. Created new columns for analysis
+6. Performed basic exploratory data analysis
 
-Matplotlib / Seaborn for basic visual analysis
+---
 
-Jupyter Notebook for interactive analysis
+## Key Observations
 
-Author
+* Product prices vary across different platforms
+* Margin calculation helps understand profitability
+* Some platform data was not available and was excluded
+* Proper data cleaning is essential before analysis
 
-Madhumitha Malli
-B.Tech CSE (AI & ML) | Aspiring Data Analyst
-Feel free to explore the project and star the repository if you find it helpful!
+---
+
+## Repository Structure
+
+```
+├── data/
+│   └── raw_dataset.csv
+├── notebooks/
+│   └── ecommerce_analysis.ipynb
+├── README.md
+```
+
+---
+
+## How to Run the Project
+
+1. Clone the repository
+2. Install required libraries:
+
+   ```
+   pip install pandas numpy matplotlib seaborn
+   ```
+3. Open Jupyter Notebook:
+
+   ```
+   jupyter notebook
+   ```
+4. Run the notebook cells step by step
+
+---
+
+
+## Author
+
+Madhumitha Malli|Aspiring Data Analyst
+
+---
+
+This project was done for learning and practice purposes.
